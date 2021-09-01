@@ -7,14 +7,16 @@
 body {
     background-image: url('https://img.freepik.com/free-photo/luxury-wedding-concept-wedding-rings-flowers_23-2148652001.jpg?size=626&ext=jpg');
     background-size: cover;
-    background-position:center center;
+    /* background-position: center center; */
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     font-family: 'Potta One', cursive;
-    margin: 0;
-    background-color:cornsilk;
+    /* margin: 0; */
+    /* background-color: cornsilk; */
+    height: 100%;
+    background-repeat: no-repeat;
 }
 
 h1 {
