@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url(https://img.freepik.com/free-photo/luxury-wedding-concept-wedding-rings-flowers_23-2148652001.jpg?size=626&ext=jpg);
+    background-image: url('https://img.freepik.com/free-photo/luxury-wedding-concept-wedding-rings-flowers_23-2148652001.jpg?size=626&ext=jpg');
     background-size: cover;
     background-position:center center;
     display: flex;
