@@ -31,9 +31,9 @@ function countdown() {
     const seconds1 = Math.floor(totalSeconds1) % 60;*/
     
     daysEl.innerHTML = days1 +'/'+ days;
-    /*hoursEl.innerHTML = formatTime(hours);
+    hoursEl.innerHTML = formatTime(hours);
     minsEl.innerHTML = formatTime(mins);
-    secondsEl.innerHTML = formatTime(seconds);*/
+    secondsEl.innerHTML = formatTime(seconds);
 
    
 
