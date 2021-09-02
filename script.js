@@ -23,17 +23,19 @@ function countdown() {
     const mins = Math.floor(totalSeconds / 60) % 60;
     const seconds = Math.floor(totalSeconds) % 60;
 
-    daysEl.innerHTML = days;
-    hoursEl.innerHTML = formatTime(hours);
-    minsEl.innerHTML = formatTime(mins);
-    secondsEl.innerHTML = formatTime(seconds);
-
     const totalSeconds1 = (tilakDate - currentDate) / 1000;
 
     const days1 = Math.floor(totalSeconds1 / 3600 / 24);
     const hours1 = Math.floor(totalSeconds1 / 3600) % 24;
     const mins1 = Math.floor(totalSeconds1 / 60) % 60;
     const seconds1 = Math.floor(totalSeconds1) % 60;
+    
+    daysEl.innerHTML = days/days1;
+    hoursEl.innerHTML = formatTime(hours);
+    minsEl.innerHTML = formatTime(mins);
+    secondsEl.innerHTML = formatTime(seconds);
+
+   
 
     daysEl1.innerHTML = days1;
     hoursEl1.innerHTML = formatTime(hours1);
