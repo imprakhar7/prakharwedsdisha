@@ -3,7 +3,6 @@ const hoursEl = document.getElementById("hours");
 const minsEl = document.getElementById("mins");
 const secondsEl = document.getElementById("seconds");
 
-
 const tilak= "20 Nov 2021 03:00 PM";
 const wedding= "28 Nov 2021 03:00 PM";
 
@@ -13,24 +12,18 @@ function countdown() {
     const currentDate = new Date();
 
     const totalSeconds = (weddingDate - currentDate) / 1000;
-
     const days = Math.floor(totalSeconds / 3600 / 24);
     const hours = Math.floor(totalSeconds / 3600) % 24;
     const mins = Math.floor(totalSeconds / 60) % 60;
     const seconds = Math.floor(totalSeconds) % 60;
 
     const totalSeconds1 = (tilakDate - currentDate) / 1000;
-
     const days1 = Math.floor(totalSeconds1 / 3600 / 24);
     
     daysEl.innerHTML = days1 +'/'+ days;
     hoursEl.innerHTML = formatTime(hours);
     minsEl.innerHTML = formatTime(mins);
     secondsEl.innerHTML = formatTime(seconds);
-
-   
-
-
 }
 
 function formatTime(time) {
