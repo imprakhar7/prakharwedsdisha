@@ -30,10 +30,7 @@ function countdown() {
 
    
 
-    /*daysEl1.innerHTML = days1;
-    hoursEl1.innerHTML = formatTime(hours1);
-    minsEl1.innerHTML = formatTime(mins1);
-    secondsEl1.innerHTML = formatTime(seconds1);*/
+
 }
 
 function formatTime(time) {
