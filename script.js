@@ -3,10 +3,6 @@ const hoursEl = document.getElementById("hours");
 const minsEl = document.getElementById("mins");
 const secondsEl = document.getElementById("seconds");
 
-/*const daysEl1 = document.getElementById("days1");
-const hoursEl1 = document.getElementById("hours1");
-const minsEl1 = document.getElementById("mins1");
-const secondsEl1 = document.getElementById("seconds1");*/
 
 const tilak= "20 Nov 2021 03:00 PM";
 const wedding= "28 Nov 2021 03:00 PM";
