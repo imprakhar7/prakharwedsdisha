@@ -22,9 +22,6 @@ function countdown() {
     const totalSeconds1 = (tilakDate - currentDate) / 1000;
 
     const days1 = Math.floor(totalSeconds1 / 3600 / 24);
-    /*const hours1 = Math.floor(totalSeconds1 / 3600) % 24;
-    const mins1 = Math.floor(totalSeconds1 / 60) % 60;
-    const seconds1 = Math.floor(totalSeconds1) % 60;*/
     
     daysEl.innerHTML = days1 +'/'+ days;
     hoursEl.innerHTML = formatTime(hours);
