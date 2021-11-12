@@ -5,7 +5,8 @@
 }
 
 body {
-    background-image: url('https://media.istockphoto.com/photos/flower-background-for-holidays-picture-id1206077453?b=1&k=20&m=1206077453&s=170667a&w=0&h=umFVscL_VWQHMWwkFF5QsWA6RQo4ji_csXYrIW9ZEFU=');
+    background-image: url('https://media.istockphoto.com/photos/flower-background-for-holidays-picture-id1206077453?b=1&k=20&m=1206077453&s=170667a&w=0&h=umFVscL_VWQHMWwkFF5QsWA6RQo4ji_csXYrIW9ZEFU=
+');
     background-size: cover;
     /* background-position: center center; */
     display: flex;
