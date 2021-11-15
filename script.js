@@ -74,3 +74,5 @@ const fireworks = new Fireworks(container, {
       }
 });
 setInterval(countdown, 1000);
+
+fireworks.start();
