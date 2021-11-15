@@ -62,16 +62,7 @@ const fireworks = new Fireworks(container, {
         y: 50, 
         width: container.clientWidth, 
         height: container.clientHeight 
-      }
-      sound: {
-        enable: true,
-        files: [
-          'explosion0.mp3',
-          'explosion1.mp3',
-          'explosion2.mp3'
-        ],
-        volume: { min: 1, max: 2 },
-      }
+      }      
 });
 setInterval(countdown, 1000);
 
