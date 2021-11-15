@@ -35,7 +35,7 @@ countdown();
 setInterval(countdown, 1000);
 
 
-const container = document.querySelector('.countdown-container')
+const container = document.querySelector('..countdown-container')
 const fireworks = new Fireworks(container, {
       rocketsPoint: 50,
       hue: { min: 0, max: 360 },
