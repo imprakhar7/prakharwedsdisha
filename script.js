@@ -32,6 +32,7 @@ function formatTime(time) {
 
 // initial call
 countdown();
+setInterval(countdown, 1000);
 
 
 const container = document.querySelector('.countdown-container')
@@ -64,6 +65,5 @@ const fireworks = new Fireworks(container, {
         height: container.clientHeight 
       }      
 });
-setInterval(countdown, 1000);
 
 fireworks.start();
