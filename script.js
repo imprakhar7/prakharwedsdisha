@@ -34,7 +34,7 @@ function formatTime(time) {
 countdown();
 
 
-const container = document.querySelector('countdown-container')
+const container = document.querySelector('.countdown-container')
 const fireworks = new Fireworks(container, {
       rocketsPoint: 50,
       hue: { min: 0, max: 360 },
