@@ -3,8 +3,8 @@ const hoursEl = document.getElementById("hours");
 const minsEl = document.getElementById("mins");
 const secondsEl = document.getElementById("seconds");
 
-const tilak= "20 Nov 2021 06:00 PM";
-const wedding= "28 Nov 2021 06:00 PM";
+const tilak= "20 Nov 2021 12:00 AM";
+const wedding= "28 Nov 2021 12:00 AM";
 
 function countdown() {
     const weddingDate = new Date(wedding);
