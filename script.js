@@ -16,9 +16,12 @@ function countdown() {
     const seconds = Math.floor(totalSeconds) % 60;
     
     daysEl.innerHTML = days;
-    hoursEl.innerHTML = formatTime(hours);
-    minsEl.innerHTML = formatTime(mins);
-    secondsEl.innerHTML = formatTime(seconds);
+    //hoursEl.innerHTML = formatTime(hours);
+    //minsEl.innerHTML = formatTime(mins);
+    //secondsEl.innerHTML = formatTime(seconds);     
+    hoursEl.innerHTML = hours;
+    minsEl.innerHTML = mins;
+    secondsEl.innerHTML = seconds;
 }
 
 function formatTime(time) {
